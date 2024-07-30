@@ -25,7 +25,10 @@ public class Hotcold {
 //            System.out.println("Extreme Hot");
 //        }
 
-        if (number > num - 2 && number < num + 2){
+        if (number == num ){
+            System.out.println("Congratulations you guessed the number.");
+        }
+        else if (number > num - 2 && number < num + 2){
             System.out.println("Extreme Hot");
         } else if (number > num-5 && number < num + 5){
             System.out.println("Hot");
